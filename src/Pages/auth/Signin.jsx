@@ -20,7 +20,7 @@ const SignIn = ({ setIsAuthenticated ,isAuthenticated}) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const resp = await fetch("https://cryptobase-vmyr.onrender.com/api/auth/login", {
+      const resp = await fetch("https://cyrpto-backend.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

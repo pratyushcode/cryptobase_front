@@ -34,7 +34,7 @@ const SignUp = () => {
         // console.log("name",formData.name)
         // console.log("password",formData.password)
         try {
-           const resp= await fetch("https://cryptobase-vmyr.onrender.com/api/user/signup",
+           const resp= await fetch("https://cyrpto-backend.onrender.com/api/user/signup",
             {
               method:"POST",
               headers:{
